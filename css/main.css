@@ -29,6 +29,10 @@ h4 span {
     font-size: 18px;
 }
 
+.profile-picture-container {
+    padding: 40px 20px;
+}
+
 #hero {
     background-color: #0b4d65;
 }

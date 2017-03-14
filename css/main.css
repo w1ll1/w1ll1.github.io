@@ -1,0 +1,117 @@
+@import url('//fonts.googleapis.com/css?family=Lato|Roboto+Condensed:300');
+
+body {
+    font-family: 'Lato', snas-serif;
+}
+
+.dl-horizontal dd,
+.dl-horizontal dt {
+    line-height: 1.75em;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h4 span {
+    color: #5b9db5;
+}
+
+.badge {
+    background-color: #5b9db5;
+}
+
+.about-myself {
+    margin-bottom: 36px;
+}
+
+.about-myself p {
+    font-size: 18px;
+}
+
+#hero {
+    background-color: #0b4d65;
+}
+
+#hero .container {
+    height: 0;
+    padding-bottom: 20%;
+    margin-bottom: 2em;
+    position: relative;
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#hero .container .row {
+    display: table;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 75%;
+}
+
+#hero .container .col-md-12 {
+    display: table-row;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+    float: none;
+    padding-left: 25%;
+}
+
+#hero .container .col-md-12 h1 {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#hero h1 {
+    font-size: 48px;
+}
+
+#hero .heart {
+    color: #c9302c;
+}
+
+#hero small {
+    color: #fff;
+    font-size: 18px;
+}
+
+.qualification-box dd, .qualification-box dt {
+    margin-bottom: 10px;
+}
+.qualification-box dd {
+    line-height: 73px;
+}
+
+@media (max-width: 992px) {
+    #hero .container .col-md-12 {
+        padding-left: 0;
+    }
+    #hero .container .row {
+        width: 100%;
+        right: auto;
+    }
+    #hero h1 {
+        padding-left: 15px;
+    }
+
+    #hero h1 br {
+        display: none;
+    }
+
+    #hero h1 small {
+        display: block;
+    }
+}
+
+@media (max-width: 600px) {
+    #hero h1 small {
+        display: none;
+    }
+    #hero h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+}
